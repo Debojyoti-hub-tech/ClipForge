@@ -1,0 +1,5 @@
+google-genai
+yt-dlp
+pydantic
+streamlit
+faster-whisper

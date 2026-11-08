@@ -1,0 +1,45 @@
+# Secrets: never commit your Gemini key
+.env
+.env.*
+*.key
+secrets.*
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated output
+shorts_out/
+reels_out/
+*.srt
+*.ass
+
+# Media (downloaded sources, clips, music, temp SFX)
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.part
+*.ytdl
+music/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
